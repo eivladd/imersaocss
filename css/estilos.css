@@ -123,6 +123,7 @@ body {
   .portfolio h2 {
     font-family: 'Press Start 2P', cursive;
     color: whitesmoke;
+    margin-top: 1em;
     margin-bottom: 1.5em;
     font-size: 2em;
   }
