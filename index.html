@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="menu">
-          <ul>
+          <ul class="container">
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#portfolio">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
@@ -23,29 +23,97 @@
           <h2 class="site-subtitle">videomaker</h2>
         </div>
     </header>
-      <section class="portfolio" id="portfolio">
+      <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+
+        <figure class="avatar">
+          <img src="./img/lucas-santos.jpg" alt="Lucas Santos">
+        </figure>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident beatae sequi vel ut excepturi doloribus harum, dolor repudiandae veniam quas eum accusantium, temporibus amet eius soluta ea similique dolorum alias?
+        </p>
+
+        <p>
+          Fugiat sed assumenda quibusdam consequatur iure maxime, totam error rerum! Ipsum debitis laboriosam similique tempora quisquam illo, quaerat, saepe officiis minus possimus nulla corporis sunt animi rerum qui itaque molestias!
+        </p>
+
+        <p>
+          Suscipit eos reiciendis dolorem vel, error, neque corrupti, modi ipsum ullam dolores ea beatae libero vero ab sed sint laborum soluta ratione animi? Sed repellendus illo, tempora sint minima eveniet!
+        </p>
+
+        <p>
+          Voluptatum dicta reprehenderit aspernatur possimus, aut vel libero eius laborum. Ratione blanditiis, eaque numquam reprehenderit tenetur corporis. Odio mollitia et sint eius, quasi voluptates fugiat ut. Aliquid ipsa voluptas ad?
+        </p>
+
+        <p>
+          Voluptatum dicta reprehenderit aspernatur possimus, aut vel libero eius laborum. Ratione blanditiis, eaque numquam reprehenderit tenetur corporis. Odio mollitia et sint eius, quasi voluptates fugiat ut. Aliquid ipsa voluptas ad?
+        </p>
+
+        <p>
+          Voluptatum dicta reprehenderit aspernatur possimus, aut vel libero eius laborum. Ratione blanditiis, eaque numquam reprehenderit tenetur corporis. Odio mollitia et sint eius, quasi voluptates fugiat ut. Aliquid ipsa voluptas ad?
+        </p>
+
+        <p>
+          Este site foi construído durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a> 😉
+        </p>
+
+      </section>
+      <section class="portfolio container" id="portfolio">
         <h2>Projetos</h2>
 
         <div class="grid">
-          <figure>
-            <img class="img-portfolio" src="./img/hallway-802068_1920.jpg" alt="hallway">
-            <figcaption>Hallway</figcaption>
-          </figure>
-          <figure>
-            <img class="img-portfolio" src="./img/tunnel-5122424_1920.jpg" alt=">tunnel">
-            <figcaption>Tunnel</figcaption>
-          </figure>
-          <figure>
-            <img class="img-portfolio" src="./img/typewriter-5065594_1920.jpg" alt="typewriter">
-            <figcaption>Typewriter</figcaption>
-          </figure>
-          <figure>
-            <img class="img-portfolio" src="./img/woodtype-846089_1920.jpg" alt="woodtype">
-            <figcaption>Woodtype</figcaption>
-          </figure>
+         
+          <div class="flip-card">
+            <div class="card">
+              <figure class="card-front">
+                <img class="img-portfolio" src="./img/hallway-802068_1920.jpg" alt="hallway">
+                <figcaption>Hallway</figcaption>
+              </figure>
+              <div class="card-back">
+                Oi eu sou a parte de trás :)
+              </div>
+            </div>
+          </div>
+          
+          <div class="flip-card">
+            <div class="card">
+              <figure class="card-front">
+                <img class="img-portfolio" src="./img/tunnel-5122424_1920.jpg" alt=">tunnel">
+                <figcaption>Tunnel</figcaption>
+              </figure>
+              <div class="card-back">
+                Oi eu sou a parte de trás :)
+              </div>
+            </div>
+          </div>
+            
+          <div class="flip-card">
+            <div class="card">
+              <figure class="card-front">
+                <img class="img-portfolio" src="./img/typewriter-5065594_1920.jpg" alt="typewriter">
+                <figcaption>Typewriter</figcaption>
+              </figure>
+              <div class="card-back">
+                Oi eu sou a parte de trás :)
+              </div>
+            </div>
+          </div>  
+            
+          <div class="flip-card">
+            <div class="card">
+              <figure class="card-front">
+                <img class="img-portfolio" src="./img/woodtype-846089_1920.jpg" alt="woodtype">
+                <figcaption>Woodtype</figcaption>
+              </figure>
+              <div class="card-back">
+                Oi eu sou a parte de trás :)
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="contato" id="contato">
+      <section class="contato container" id="contato">
         <h2>Contato</h2>
         <div class="grid icons">
           <a target="_blank" href="https://github.com/eivladd">
